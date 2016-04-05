@@ -76,22 +76,23 @@ table{
     border: 2px solid olivedrab;
 }
 
-/*tr:first-child{*/
-    /*background: skyblue;*/
-/*}*/
-/*tr:last-child{*/
-    /*background: red;*/
-/*}*/
-/*tr:nth-child(3){*/
-    /*background: peru;*/
-/*}*/
-/*tr:nth-last-child(2){*/
-    /*background: green;*/
-/*}*/
+tr:first-child{
+    background: skyblue;
+}
+tr:last-child{
+    background: red;
+}
+tr:nth-child(3){
+    background: peru;
+}
+tr:nth-last-child(2){
+    background: green;
+}
 
-/*tr:nth-child(2n){*/
-    /*background: skyblue;*/
-/*}*/
+tr:nth-child(2n){
+    background: skyblue;
+}
+
 tr:nth-child(2n + 1){
     background: darkseagreen;
 }
@@ -103,7 +104,16 @@ tr:hover:nth-child(2n){
     font-size: 2rem;
 }
 
+.p_dis{
+    display: inline-block;
+}
 
+.link{
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: none;
+}
 
 
 
