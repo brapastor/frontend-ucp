@@ -72,6 +72,23 @@ div>div>p{
     color: blue;
     font-size: 3rem;
 }
+table{
+    border: 2px solid olivedrab;
+}
+
+tr:first-child{
+    background: skyblue;
+}
+tr:last-child{
+    background: red;
+}
+tr:nth-child(3){
+    background: peru;
+}
+tr:nth-last-child(2){
+    background: green;
+}
+
 
 
 
