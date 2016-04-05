@@ -1,0 +1,96 @@
+/*selectores*/
+/*clase*/
+.miclase{
+
+}
+/*id*/
+#mi_id{
+
+}
+/*etiqueta*/
+p{
+
+}
+/*De atributo*/
+a[href^="mailto"]{
+    font-size: 3rem;
+}
+
+a[href$=".html"]{
+    color: peru;
+    font-size: 5rem;
+}
+
+/*h2[title]{*/
+    /*color:red;*/
+    /*background: #000;*/
+/*}*/
+
+/*h2[title*="pagina"]{*/
+    /*color: red;*/
+/*}*/
+
+
+
+/*selectores adyacente*/
+h1 + h2{
+    background: green;
+    color: white;
+}
+
+h1 ~ h2{
+    background: red;
+    color: white;
+}
+
+div>div>p{
+    color: cadetblue;
+    font-size: 4rem;
+}
+/*Descendentes*/
+.div_class p a {
+    font-size: 3rem;
+}
+
+/*pseudoelemento*/
+
+.parrafo:first-line{
+    color: blue;
+    font-size: 2rem;
+}
+
+.parrafo:first-letter{
+    font-size: 4rem;
+    color: red;
+}
+
+.parrafo:before{
+    content:"Inicio del parrafo";
+}
+.parrafo:after{
+    content:"Final de parrafo";
+    color: blue;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
