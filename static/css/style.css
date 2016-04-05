@@ -76,18 +76,33 @@ table{
     border: 2px solid olivedrab;
 }
 
-tr:first-child{
-    background: skyblue;
+/*tr:first-child{*/
+    /*background: skyblue;*/
+/*}*/
+/*tr:last-child{*/
+    /*background: red;*/
+/*}*/
+/*tr:nth-child(3){*/
+    /*background: peru;*/
+/*}*/
+/*tr:nth-last-child(2){*/
+    /*background: green;*/
+/*}*/
+
+/*tr:nth-child(2n){*/
+    /*background: skyblue;*/
+/*}*/
+tr:nth-child(2n + 1){
+    background: darkseagreen;
 }
-tr:last-child{
-    background: red;
+tr{
+    transition: 1s;
 }
-tr:nth-child(3){
-    background: peru;
+tr:hover:nth-child(2n){
+    background: deepskyblue;
+    font-size: 2rem;
 }
-tr:nth-last-child(2){
-    background: green;
-}
+
 
 
 
