@@ -111,7 +111,7 @@ tr:hover:nth-child(2n){
 .link{
     display: block;
     display: inline;
-    display: inline-block;
+    display: inline-block !important;
     display: none;
 }
 
