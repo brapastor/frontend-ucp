@@ -1,0 +1,49 @@
+.contenedor{
+    width: 500px;
+    height: 200px;
+    background: white;
+    padding: 10px;
+    border: 10px solid #2c3e50;
+    margin: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items:center ;
+    flex-wrap: nowrap;
+
+
+    flex-direction:row;
+    /*flex-wrap:nowrap;*/
+
+    /*!*atajo*!*/
+    /*flex-flow:row nowrap;*/
+
+    /*align-content:center;*/
+/*//esta pripiedad solo funciona con varias lineas con wrap*/
+
+
+}
+
+.elemento{
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    /*flex-basis: 350px;*/
+
+    flex:1;
+    color: white;
+    margin: 5px;
+    width: 350px;
+    height: 50px;
+    background: #e67e22;
+    text-align: center;
+
+}
+
+.elemento3{
+    align-self: flex-start;
+
+    /*height: auto;*/
+}
+
