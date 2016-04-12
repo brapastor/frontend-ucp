@@ -6,6 +6,7 @@ body{
     position: fixed;
     left: 0;
     right: 0;
+    top: 0;
     height: 3rem;
 }
 .Menu__list{
@@ -33,7 +34,25 @@ body{
 }
 
 .Header{
+    margin-top: 3rem;
+    background: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.Header__imgContent{
+    margin: 0;
+    width: 100%;
+}
+.Header__img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
 
-    height: 40vh;
+.Header__infoBox{
+    width: 15%;
+    margin: 0 auto;
 }
 
