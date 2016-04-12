@@ -25,5 +25,10 @@ body{
     text-decoration: none;
     color: #3be9f4;
     font-size: 1.1rem;
+    transition: 0.5s;
+}
+.Menu__link:hover{
+    color: white;
+    font-size: 2rem;
 }
 
