@@ -1,22 +1,27 @@
-
+body{
+    margin: 0;
+}
+.Menu{
+    background: #1e1e1e;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 .Menu__list{
+    text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 .Menu__item{
+    margin-right:1rem;
     display: inline-block;
     /*float: left;*/
 }
 
 .Menu__link{
     text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
 }
 
-
-
-
-.sen{
-    height: 150vh;
-    background: #000;
-}
