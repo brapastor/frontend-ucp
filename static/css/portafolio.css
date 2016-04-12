@@ -6,6 +6,7 @@ body{
     position: fixed;
     left: 0;
     right: 0;
+    height: 3rem;
 }
 .Menu__list{
     text-align: center;
@@ -14,6 +15,7 @@ body{
     margin: 0;
 }
 .Menu__item{
+    line-height: 3rem;
     margin-right:1rem;
     display: inline-block;
     /*float: left;*/
@@ -21,7 +23,7 @@ body{
 
 .Menu__link{
     text-decoration: none;
-    color: white;
+    color: #3be9f4;
     font-size: 1.1rem;
 }
 
